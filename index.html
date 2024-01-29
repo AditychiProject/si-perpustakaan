@@ -33,15 +33,21 @@
         <li>
           <a href="index.php" class="text-sm text-black font-semibold mx-6">Dashboard</a>
         </li>
-        <!-- Logout -->
+        <!-- Programming -->
         <li>
-          <a href="logout.php" class="text-sm text-black font-semibold mx-6">Logout</a>
+          <a href="logout.php" class="text-sm text-black font-semibold mx-6">Programming</a>
+        </li>
+        <!-- UI UX Design -->
+        <li>
+          <a href="logout.php" class="text-sm text-black font-semibold mx-6">UI UX Design</a>
+        </li>
+        <!-- Setting -->
+        <li>
+          <a href="logout.php" class="text-sm text-black font-semibold mx-6">Setting</a>
         </li>
       </ul>
-      <!-- Register Button -->
-      <a href="register.php" class="hidden lg:inline-block text-sm text-light font-medium bg-greencstm hover:bg-green-700 rounded-md lg:ml-auto lg:mr-4 px-8 py-3">Register</a>
-      <!-- Login Button -->
-      <a href="login.php" class="hidden lg:inline-block text-sm text-black font-medium border border-slate-400 hover:border-transparent hover:outline hover:outline-2 hover:outline-greencstm rounded-md px-8 py-3">Login</a>
+      <!-- Logout Button -->
+      <a href="" class="hidden lg:inline-block text-sm text-light font-medium bg-red-500 hover:bg-red-700 rounded-md lg:ml-auto lg:mr-4 px-8 py-3 transition duration-200">Logout</a>
     </nav>
     <!-- Navbar Mobile -->
     <div class="navbar-menu hidden relative z-50">
@@ -60,11 +66,19 @@
           <ul>
             <!-- Dashboard -->
             <li class="mb-1">
-              <a href="index.php" class="block text-sm text-black font-semibold hover:bg-blue-50 rounded-md px-4 py-3">Dashboard</a>
+              <a href="" class="block text-sm text-black font-semibold hover:bg-blue-50 rounded-md px-4 py-3">Dashboard</a>
             </li>
-            <!-- Logout -->
+            <!-- Programming -->
             <li class="mb-1">
-              <a href="logout.php" class="block text-sm text-black font-semibold hover:bg-blue-50 rounded-md px-4 py-3">Logout</a>
+              <a href="" class="block text-sm text-black font-semibold hover:bg-blue-50 rounded-md px-4 py-3">Programming</a>
+            </li>
+            <!-- UI UX Design -->
+            <li class="mb-1">
+              <a href="" class="block text-sm text-black font-semibold hover:bg-blue-50 rounded-md px-4 py-3">UI UX Design</a>
+            </li>
+            <!-- Setting -->
+            <li class="mb-1">
+              <a href="" class="block text-sm text-black font-semibold hover:bg-blue-50 rounded-md px-4 py-3">Setting</a>
             </li>
           </ul>
         </div>
@@ -79,13 +93,11 @@
                   name="keyword"
                   class="w-full max-h-[44px] box-border text-sm text-black font-medium bg-light border border-slate-300 focus:border-transparent focus:outline focus:outline-2 focus:outline-bluecstm rounded-md lg:ml-auto lg:mr-4 p-3"
                 />
-                <button type="submit" name="search" class="inline-block text-sm text-light bg-bluecstm hover:bg-blue-700 rounded-md px-4 py-3">Cari</button>
+                <button type="submit" name="search" class="inline-block text-sm text-light bg-bluecstm hover:bg-blue-700 rounded-md px-4 py-3 transition duration-200">Cari</button>
               </div>
             </form>
-            <!-- Register Button -->
-            <a href="register.php" class="block text-sm text-light text-center font-semibold bg-greencstm hover:bg-green-700 rounded-md mb-4 lg:mb-0 px-4 py-3">Register</a>
-            <!-- Login Button -->
-            <a href="login.php" class="block text-sm text-black text-center font-semibold border border-slate-400 hover:border-transparent hover:outline hover:outline-2 hover:outline-greencstm rounded-md mb-8 px-4 py-3">Login</a>
+            <!-- Logout Button -->
+            <a href="" class="block lg:hidden text-sm text-light text-center font-medium bg-red-500 hover:bg-red-700 rounded-md lg:ml-auto lg:mr-4 px-8 py-3 transition duration-300">Logout</a>
           </div>
         </div>
       </nav>
@@ -98,7 +110,7 @@
           <h2 class="text-3xl text-slate-800 font-bold mt-8 mb-10">Dashboard</h2>
           <div class="flex justify-between gap-2">
             <!-- Create Data Link -->
-            <a href="create-data.php" class="inline-block text-sm text-light bg-bluecstm hover:bg-blue-700 rounded-md px-4 py-3">Tambah data buku</a>
+            <a href="create-data.php" class="inline-block text-sm text-light bg-bluecstm hover:bg-blue-700 rounded-md px-4 py-3 transition duration-200">Tambah data buku</a>
             <!-- Search Bar -->
             <form action="" method="post" class="hidden lg:inline-block">
               <input
@@ -107,7 +119,7 @@
                 class="hidden lg:inline-block w-64 max-h-[44px] box-border text-sm text-black font-medium bg-light border border-slate-400 focus:border-transparent focus:outline focus:outline-2 focus:outline-bluecstm rounded-md lg:ml-auto lg:mr-4 p-3"
                 placeholder="Cari data"
               />
-              <button type="submit" name="search" class="inline-block text-sm text-light bg-bluecstm hover:bg-blue-700 rounded-md px-4 py-3">Cari</button>
+              <button type="submit" name="search" class="inline-block text-sm text-light bg-bluecstm hover:bg-blue-700 rounded-md px-4 py-3 transition duration-200">Cari</button>
             </form>
           </div>
         </div>
