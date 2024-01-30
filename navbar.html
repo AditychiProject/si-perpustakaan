@@ -1,0 +1,87 @@
+<!-- Navbar -->
+<nav class="flex justify-between items-center w-full fixed bg-light p-4">
+  <!-- Nav Brand -->
+  <a href="index.php" class="text-xl lg:text-2xl text-black font-bold">SI Perpustakaan</a>
+  <!-- Hamburger Menu Button -->
+  <div class="lg:hidden">
+    <button class="navbar-burger flex items-center text-black">
+      <svg class="block w-6 h-6 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+      </svg>
+    </button>
+  </div>
+  <!-- Nav Links -->
+  <ul class="hidden lg:flex lg:items-center lg:w-auto absolute top-1/2 left-1/2 lg:mx-auto transform -translate-x-1/2 -translate-y-1/2">
+    <!-- Dashboard -->
+    <li>
+      <a href="index.php" class="text-sm text-black font-semibold mx-6">Dashboard</a>
+    </li>
+    <!-- Programming -->
+    <li>
+      <a href="logout.php" class="text-sm text-black font-semibold mx-6">Programming</a>
+    </li>
+    <!-- UI UX Design -->
+    <li>
+      <a href="logout.php" class="text-sm text-black font-semibold mx-6">UI UX Design</a>
+    </li>
+    <!-- Setting -->
+    <li>
+      <a href="logout.php" class="text-sm text-black font-semibold mx-6">Setting</a>
+    </li>
+  </ul>
+  <!-- Logout Button -->
+  <a href="" class="hidden lg:inline-block text-sm text-light font-medium bg-red-500 hover:bg-red-700 rounded-md lg:ml-auto lg:mr-4 px-8 py-3 transition duration-200">Logout</a>
+</nav>
+<!-- Navbar Mobile -->
+<div class="navbar-menu hidden relative z-50">
+  <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+  <nav class="flex flex-col max-w-sm w-5/6 overflow-y-auto fixed top-0 left-0 bottom-0 bg-light border-r p-6">
+    <!-- Close Button -->
+    <div class="flex justify-end items-center mb-8">
+      <button class="navbar-close">
+        <svg class="cursor-pointer w-6 h-6 text-gray-400 hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+    <!-- Nav Links Mobile -->
+    <div>
+      <ul>
+        <!-- Dashboard -->
+        <li class="mb-1">
+          <a href="" class="block text-sm text-black font-semibold hover:bg-blue-50 rounded-md px-4 py-3">Dashboard</a>
+        </li>
+        <!-- Programming -->
+        <li class="mb-1">
+          <a href="" class="block text-sm text-black font-semibold hover:bg-blue-50 rounded-md px-4 py-3">Programming</a>
+        </li>
+        <!-- UI UX Design -->
+        <li class="mb-1">
+          <a href="" class="block text-sm text-black font-semibold hover:bg-blue-50 rounded-md px-4 py-3">UI UX Design</a>
+        </li>
+        <!-- Setting -->
+        <li class="mb-1">
+          <a href="" class="block text-sm text-black font-semibold hover:bg-blue-50 rounded-md px-4 py-3">Setting</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Bottom Elements -->
+    <div class="mt-auto">
+      <div class="pt-6">
+        <!-- Search Bar -->
+        <form action="" method="post" class="mb-4">
+          <div class="flex justify-between gap-2">
+            <input
+              type="text"
+              name="keyword"
+              class="w-full max-h-[44px] box-border text-sm text-black font-medium bg-light border border-slate-300 focus:border-transparent focus:outline focus:outline-2 focus:outline-bluecstm rounded-md lg:ml-auto lg:mr-4 p-3"
+            />
+            <button type="submit" name="search" class="inline-block text-sm text-light bg-bluecstm hover:bg-blue-700 rounded-md px-4 py-3 transition duration-200">Cari</button>
+          </div>
+        </form>
+        <!-- Logout Button -->
+        <a href="" class="block lg:hidden text-sm text-light text-center font-medium bg-red-500 hover:bg-red-700 rounded-md lg:ml-auto lg:mr-4 mb-8 px-8 py-3 transition duration-300">Logout</a>
+      </div>
+    </div>
+  </nav>
+</div>

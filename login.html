@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+    <!-- Style -->
+    <link rel="stylesheet" href="dist/output.css" />
+    <!-- Script -->
+    <script src="dist/js/script.js"></script>
+  </head>
+  <body class="bg-slate-200">
+    <!-- Login Section -->
+    <section id="login" class="flex w-full min-h-screen bg-cover" style="background-image: url('dist/img/login-bg.jpg')">
+      <div class="container m-auto">
+        <!-- Logo Website -->
+        <div class="mb-8">
+          <a href="index.php" class="block text-3xl text-light text-center font-semibold mx-auto">SI Perpustakaan</a>
+        </div>
+        <!-- Form Login -->
+        <div class="max-w-lg bg-light rounded-xl mx-auto px-6 py-12">
+          <h2 class="text-2xl text-center uppercase font-bold mb-8">Login</h2>
+          <form action="" method="post">
+            <!-- Email -->
+            <div class="mb-6">
+              <label for="email" class="block text-sm mb-2">Email</label>
+              <input type="email" name="email" id="email" class="block w-full text-sm text-paragraph border border-slate-500 outline-bluecstm rounded-md p-3" required placeholder="Masukan email Anda" />
+            </div>
+            <!-- Password -->
+            <div class="mb-6">
+              <label for="password" class="block text-sm mb-2">Password</label>
+              <input type="password" name="password" id="password" class="block w-full text-sm text-paragraph border border-slate-500 outline-bluecstm rounded-md p-3" required placeholder="Masukan password Anda" />
+            </div>
+            <!-- Login Button -->
+            <button type="submit" name="login" class="w-full text-sm text-light font-medium bg-bluecstm hover:bg-blue-800 rounded-md p-4 transition duration-300">Login</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
